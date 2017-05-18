@@ -9,3 +9,8 @@ from django.shortcuts import render
 def index(request):
     context = {}
     return render(request, 'app/example.html', context)
+
+
+def clm_video(request):
+    context = {}
+    return render(request, 'app/clm_video.html', context)
