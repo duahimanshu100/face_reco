@@ -6,7 +6,7 @@ from app.models import Faces
 
 
 class FaceAdmin(admin.ModelAdmin):
-    list_display = ['id', 'person_name', 'created_at', 'cam_id']
+    list_display = ['id', 'person_name', 'created_at', 'cam_id', 'image_thumb']
 
 
 admin.site.register(Faces, FaceAdmin)
